@@ -35,7 +35,7 @@ collections: # A list of collections the CMS should be able to edit
     meta: # Meta data fields. Just like fields, but without any preview element
   - name: "pages"
     label: "Pages"
-    folder: "/pages"
+    folder: "/"
     sort: "title:asc"
     create: true
     slug: "{{slug}}"
