@@ -39,7 +39,7 @@
 	* [标题底图](#header-image)
 	* [搜索展示标题-头文件](#seo-title)
 
-
+[为Github Pages添加后台管理界面](https://xujinkai.net/posts/netlify-as-github-pages-cms)
 
 ### 环境
 
