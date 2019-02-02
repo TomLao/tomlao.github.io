@@ -19,10 +19,10 @@ sidebar-avatar: /img/megumi_10.png      # use absolute URL, seeing it's used in 
 # SNS settings
 RSS: false
 # weibo_username:     qiubaiying
-zhihu_username:     qiubaiying
+zhihu_username:     laoheze
 github_username:    tomlao
-facebook_username:  baiying.qiu.7
-jianshu_username:   e71990ada2fd
+#facebook_username:  baiying.qiu.7
+jianshu_username:   2929bc86b8d4
 #twitter_username:   qiubaiying
 
 
@@ -62,11 +62,11 @@ kramdown:
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
-  clientID: f2c84e7629bb1446c1a4                            #生成的clientID
-  clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
-  repo: qiubaiying.github.io    #仓库名称
-  owner: qiubaiying    #github用户名
-  admin: qiubaiying
+  clientID: c496b481635a2002b959                            #生成的clientID
+  clientSecret: d248df177010c6aacf366ef0be64b772fd92697b    #生成的clientSecret
+  repo: tomlao.github.io    #仓库名称
+  owner: tomlao    #github用户名
+  admin: tomlao
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
@@ -74,11 +74,11 @@ gitalk:
 
 # Analytics settings
 # Baidu Analytics
-ba_track_id: b50bf2b12b5338a1845e33832976fd68
+ba_track_id: 32dd6ca1ace9897bb11332c4a79227af
 
 # Google Analytics
-ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
-ga_domain: auto               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+#ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
+#ga_domain: auto               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
 
@@ -100,10 +100,10 @@ service-worker: true
 friends: [
     {
         title: "WY",
-        href: "http://zhengwuyang.com"
+        href: "http://tomlao.com"
     },{
-        title: "简书·BY",
-        href: "http://www.jianshu.com/u/e71990ada2fd"
+        title: "简书",
+        href: "http://www.jianshu.com/u/2929bc86b8d4"
     },{
         title: "Apple",
         href: "https://apple.com"
