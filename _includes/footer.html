@@ -93,6 +93,14 @@
                 <p class="copyright text-muted">
                     Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }}
                     <br>
+                    <!-- busuanzi 统计访问人数和总阅读量 -->
+                    <span id="busuanzi_container_site_uv">
+                        访客:<span id="busuanzi_value_site_uv"></span>
+                    </span> | 
+                    <span id="busuanzi_container_site_pv">
+                        阅读:<span id="busuanzi_value_site_pv"></span>
+                    </span>
+                    <br>
                     Theme on <a href="{{ site.github_repo }}">GitHub</a> |
                     <iframe
                         style="margin-left: 2px; margin-bottom:-5px;"
@@ -268,3 +276,5 @@
 </script>
 {% endif %}
 
+<!-- busuanzi 阅读数统计 -->
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
