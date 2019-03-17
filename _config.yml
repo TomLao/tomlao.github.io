@@ -74,7 +74,7 @@ gitalk:
 
 # Analytics settings
 # Baidu Analytics
-ba_track_id: 32dd6ca1ace9897bb11332c4a79227af
+#ba_track_id: 32dd6ca1ace9897bb11332c4a79227af
 
 # Google Analytics
 #ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
@@ -99,16 +99,16 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "WY",
-        href: "http://tomlao.com"
+        title: "Niracler-李",
+        href: "https://www.niracler.com/"
     },{
-        title: "简书",
-        href: "http://www.jianshu.com/u/2929bc86b8d4"
+        title: "AllenTan-谭",
+        href: "https://allenxz.github.io/"
     },{
-        title: "Apple",
-        href: "https://apple.com"
+        title: "Zhouyimian-周",
+        href: "https://zhouyimian.github.io/"
     },{
-        title: "Apple Developer",
-        href: "https://developer.apple.com/"
+        title: "Antonio-石",
+        href: "https://www.antonio.net.cn/"
     }
 ]
