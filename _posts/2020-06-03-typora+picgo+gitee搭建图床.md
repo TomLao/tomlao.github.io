@@ -1,6 +1,6 @@
 ---
 layout: post
-title:typora+picgo+gitee搭建图床
+title: typora+picgo+gitee搭建图床
 subtitle: 超好用的博客工具，即将开始疯狂写博客
 date: 2020-06-03
 authro: tomlao
