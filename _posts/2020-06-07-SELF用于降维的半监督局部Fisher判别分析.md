@@ -1,10 +1,10 @@
 ---
 layout: post
-title: latex写公式笔记
-subtitle: 不能一味贴图了，需要动手去写数学表达式
+title: SELF用于降维的半监督局部Fisher判别分析
+subtitle: 结合PCA和LFDA的优点，有效利用有/无标签数据
 date: 2020-06-07
 authro: tomlao
-header-img: https://gitee.com/tomlao/typoratuchuang/raw/master/img/image-20200607122232785.png
+header-img: /img/Lost-song-Lin.jpg
 catalog: true
 tags:
 - 笔记
@@ -12,6 +12,10 @@ tags:
 论文地址：[http://www.ms.k.u-tokyo.ac.jp/2010/SELF.pdf](http://www.ms.k.u-tokyo.ac.jp/2010/SELF.pdf)
 论文ppt：[http://www.ms.k.u-tokyo.ac.jp/2008/PAKDD2008-slides.pdf](http://www.ms.k.u-tokyo.ac.jp/2008/PAKDD2008-slides.pdf)
 论文简介及代码：[http://www.ms.k.u-tokyo.ac.jp/software.html](http://www.ms.k.u-tokyo.ac.jp/software.html)
+
+[关于Fisher判别分析详解](https://blog.csdn.net/PinappleMi/article/details/90261680)
+
+读第一篇论文关于降维算法的。
 
 # Fisher linear discriminant analysis总结
 
@@ -76,7 +80,7 @@ $$
 S^{(rlb)} \varphi = \lambda S^{(rlw)} \varphi
 $$
 
-2. 其中$S^{(rlb)}$和$S^{(rlw)}$的定义为如下。$\beta$为0到1，当$\beta$=1时退化为PCA，当$\beta$=0时退化为LFDA。不同的权衡参数$\beta$增加灵活性，但使得其选取困难。
+2. 其中$S^{(rlb)}$和$S^{(rlw)}$的定义为如下。$\beta$为0到1，当$\beta$=1时退化为PCA，当$\beta$=0时退化为LFDA。不同的权衡参数$\beta$增加灵活性，但使得其选取困难。**重要的创新点是加入这个可变公式，beta值桥接pca和LFDA**
 
 $$
 S^{(rlb)} := (1-\beta)S^{(lb)} + \beta S^{(t)}
@@ -90,3 +94,6 @@ $$
 T^{(SELF)} := \mathop{argmax}\limits_{T\in R^{d*r}}[tr(T^TS^{(rlb)}T(T^TS^{(rlw)}T)^{-1})]
 $$
 
+# 做ppt
+
+下载地址：[Semi-supervised local Fisher discriminant analysis-20200609.pptx]([https://gitee.com/tomlao/typoratuchuang/blob/master/paper/Semi-supervised%20local%20Fisher%20discriminant%20analysis-20200609.pptx](https://gitee.com/tomlao/typoratuchuang/blob/master/paper/Semi-supervised local Fisher discriminant analysis-20200609.pptx))

@@ -4,7 +4,7 @@ title: typora+picgo+gitee搭建图床
 subtitle: 超好用的博客工具，即将开始疯狂写博客
 date: 2020-06-03
 authro: tomlao
-header-img: img/2019-05-27-三个月的感想.png
+header-img: https://gitee.com/tomlao/typoratuchuang/raw/master/img/image-20200611130218637.png
 catalog: true
 tags:
 - 工具
